@@ -9,5 +9,5 @@
        update_cache: yes
    - name: Copying war file to webapps
      copy:
-       src: /var/lib/jenkins/workspace/2nd-job/target/maven-web-application.war
+       src: /var/lib/jenkins/workspace/deploy/target/maven-web-application.war
        dest: /var/lib/tomcat9/webapps
